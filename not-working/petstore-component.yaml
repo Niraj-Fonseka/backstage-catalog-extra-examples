@@ -5,7 +5,7 @@ metadata:
   description: Petstore
 spec:
   type: service
-  lifecycle: production
+  lifecycle: experimental
   owner: pets@example.com
   implementsApis:
     - petstore
