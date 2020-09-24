@@ -3,8 +3,32 @@ kind: Component
 metadata:
   name: example-app
   description: ExampleApp
-  tags:
-    - go
+  owningTeam: team-name
+  directorate: platform 
+  url: webiteapp.com
+  deploymentLocations: aws 
+  techInfo:
+    language: go 
+    serverless: true 
+    platform: k8s 
+    database: None
+  slack: channel_name 
+  pagerduty: pagerduty_service_name
+  email: email@email.com
+  source: appurl@heb.com
+  documentation:
+    onePager: onepager.confluence.com
+    infra: infra.confluence.com 
+    architecture: arch.app.confulence.com 
+  cicd: pipeline.url.com
+  dashboards:
+    datadog:
+      - datadog.dashboard-one.com 
+      - datadog.dashboard-two.com 
+    newrelic:
+      - newrelic.dashboard-one.com 
+    grafana:
+      - grafana.dashboard-one.com 
 spec:
   type: service
   lifecycle: production
