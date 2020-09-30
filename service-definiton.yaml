@@ -1,0 +1,48 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-app
+  description: >
+    ExampleApp is a deployment supply chain iteration termsheet 
+    paradigm shift non-disclosure agreement release.
+  ownership:
+    # owner: hodor.hodor@heb.com # This probably shouldn't be here, since we have spec.owner below
+    team: foo-squad
+    directorate: platform
+  url: webiteapp.com
+  deploymentLocations: aws
+  techInfo:
+    language: go
+    serverless: true
+    platform: k8s
+    database: None
+  source:
+    - name: application
+      url: https://gitlab.com/org/team/repo
+    - name: infrastructure
+      url: https://gitlab.com/org/team/infra-repo
+  contact:
+    pagerduty_service_url: https://heb-digital.pagerduty.com/services/foo
+    email: email@email.com
+    slack_channel: channel_name # Can we link with just the name? (without talking to the Slack API)
+  documentation:
+    - name: onePager
+      url: https://onepager.confluence.com
+    - name: infra
+      url: https://infra.confluence.com
+    - name: architecture
+      url: https://arch.app.confulence.com
+  build_and_deploy:
+    - name: ci/cd
+      url: http://gitlab.com/org/repo/whatever/pipeline
+  dashboards:
+    - name: Worker Status
+      url: https://datadog.com/dashboards/foo
+    - name: Front End
+      url: https://newrelic.com/dashboards/bar
+    - name: API (Detailed)
+      url: https://cloudwatch.amazonws.com/whatever
+spec:
+  type: service
+  lifecycle: production
+  owner: guest
