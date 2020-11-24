@@ -10,10 +10,6 @@ metadata:
     team: foo-squad
     directorate: platform
   url: webiteapp.com
-  contact:
-    pagerduty_service_url: https://heb-digital.pagerduty.com/services/foo
-    email: email@email.com
-    slack_channel: channel_name # Can we link with just the name? (without talking to the Slack API)
   documentation:
     - name: onePager
       url: https://onepager.confluence.com
