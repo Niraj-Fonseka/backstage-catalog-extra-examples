@@ -1,21 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: different-app
+  name: example-app
   description: >
-    ExampleApp is a deployment supply chain iteration termsheet 
+    ExampleApp is a deployment supply chain iteration termsheet
     paradigm shift non-disclosure agreement release.
   ownership:
     # owner: hodor.hodor@heb.com # This probably shouldn't be here, since we have spec.owner below
     team: foo-squad
     directorate: platform
   url: webiteapp.com
-  deploymentLocations: aws
-  techInfo:
-    language: go
-    serverless: true
-    platform: k8s
-    database: None
   source:
     - name: application
       url: https://gitlab.com/org/team/repo
@@ -42,6 +36,10 @@ metadata:
       url: https://newrelic.com/dashboards/bar
     - name: API (Detailed)
       url: https://cloudwatch.amazonws.com/whatever
+  tags:
+    - go
+    - k8s
+    - aws
 spec:
   type: service
   lifecycle: production
