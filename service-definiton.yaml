@@ -10,11 +10,6 @@ metadata:
     team: foo-squad
     directorate: platform
   url: webiteapp.com
-  source:
-    - name: application
-      url: https://gitlab.com/org/team/repo
-    - name: infrastructure
-      url: https://gitlab.com/org/team/infra-repo
   contact:
     pagerduty_service_url: https://heb-digital.pagerduty.com/services/foo
     email: email@email.com
