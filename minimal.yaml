@@ -1,14 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: example-app
+  name: example-minimal-app
   description: >
     ExampleApp is a deployment supply chain iteration termsheet
     paradigm shift non-disclosure agreement release.
-  ownership:
-    # owner: hodor.hodor@heb.com # This probably shouldn't be here, since we have spec.owner below
-    team: foo-squad
-    directorate: platform
   contact:
     email: email@email.com
   tags:
@@ -16,4 +12,4 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: guest
+  owner: owner@email.com
