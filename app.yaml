@@ -4,9 +4,7 @@ metadata:
   name: locust-app
   description: Artist Lookup
   annotations:
-    locust/loadtesting:
-      - host: hostname.com
-      - slack: channelname
+    locust/loadtesting: hostname.com
   tags:
     - java
     - data
