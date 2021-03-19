@@ -4,7 +4,7 @@ metadata:
   name: locust-app
   description: Artist Lookup
   annotations:
-    backstage.heb.tools/heb-locust: hostname.com
+    backstage.heb.tools/heb-locust: http://5478194281dd.ngrok.io
   tags:
     - java
     - data
