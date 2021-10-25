@@ -4,8 +4,8 @@ metadata:
   name: niraj-service-changename
   # This is an extra long description
   description: test service for niraj
-  jarvis/repo: heb-engineering/teams/platform-engineering/gke-hybrid-cloud/gct/kp-automation/kp-falco-rule
-  jarvis/env: dev
+  jarvis/repo: test-repo-github
+  jarvis/env: prod
 spec:
   type: service
   lifecycle: experimental
