@@ -4,8 +4,9 @@ metadata:
   name: niraj-service-changename
   # This is an extra long description
   description: test service for niraj
-  jarvis/repo: test-repo-github
-  jarvis/env: prod
+  annotations:
+     jarvis/repo: test-repo-github
+     jarvis/env: prod
 spec:
   type: service
   lifecycle: experimental
