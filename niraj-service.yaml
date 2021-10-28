@@ -7,7 +7,6 @@ metadata:
   annotations:
      jarvis/repo: test-repo-github
      jarvis/env: prod
-     jarvis/prefix: api
 spec:
   type: service
   lifecycle: experimental
