@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: incident-automation
+  description: test service for niraj
+spec:
+  type: service
+  lifecycle: experimental
+  owner: sre
