@@ -6,4 +6,4 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: sre
+  owner: platform-sre
